@@ -81,7 +81,7 @@ DATABASES = {
     # },
     'default':{
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'video-voting',
+        'NAME': 'postgres',
         'USER': 'anjany',
         'PASSWORD': 'Mona@5322',
         'HOST': 'video-voting.postgres.database.azure.com',
