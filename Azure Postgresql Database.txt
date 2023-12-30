@@ -1,0 +1,1 @@
+cnx = psycopg2.connect(user="anjany", password="{your_password}", host="video-voting.postgres.database.azure.com", port=5432, database="")
