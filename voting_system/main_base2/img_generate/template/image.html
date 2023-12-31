@@ -36,8 +36,9 @@
             #navbar b{
                 color: white;
                 float: right;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-family: Georgia, 'Times New Roman', Times, serif;
                 font-weight: lighter;
+                margin: 25px;
             }
             #image-container {
                 width: 100%;
@@ -45,8 +46,8 @@
                 border-radius: 100px;
                 background-color: black;
                 color: white;
-                padding: 200px;
-                margin: 100px;
+                padding: 225px;
+                margin: 80px;
                 overflow-y: auto;
                 flex: 1;
                 max-height: 50px;
@@ -55,64 +56,71 @@
             #image-container1{
                 float: left;
                 width: 100%;
-                background-color: blue;
+                background-color: white;
                 color: black;
                 max-width: 210px;
                 border-radius: 0;
                 padding-left: 150px;
                 padding-bottom: 200px;
                 margin: -100px;
-                border-radius: 25px;
+                border-radius: 20px;
+                text-align: left;
                 
                  }
-            <!-- #choice-container1 {
-
-                width: 100%;
-                background-color: white;
-                color: black;
-                padding-left: 25px;
-                padding-bottom: 200px;
-                border-radius: 25px;
-                margin: -100px;
-                max-width: 210px;
-            } -->
             #image-container2{
                 float: right;
                 width: 100%;
-                background-color: red;
+                background-color: white;
                 color: black;
                 max-width: 210px;
                 padding-right: 150px;
                 padding-bottom: 200px;
                 margin: -100px;
-                border-radius: 25px;
+                border-radius: 20px;
+                text-align: end;
                 
             }
-            <!-- #choice-container2 {
+            #tick-container{
+                width: 25%;
+                float:left;
                 background-color: white;
-                width: 100%;
+                padding-left: 25px;
+                padding-bottom: 15px;
+                margin-top: 180px;
+                margin-left: -160px;
+                color: black; 
+                border-radius: 10px; 
+                cursor: pointer;
+            }
+            #tick-container1{
+                width: 25%;
+                float: right;
+                background-color: white;
+                padding-right: 40px;
+                padding-bottom: -30px;
+                margin-top: 175px;
+                margin-right: -165px;
                 color: black;
-                padding-right: 25px;
-                padding-bottom: 200px;
-                margin: -100px;
-                border-radius: 25px;
-
-            } -->
+                border-radius: 10px;
+                cursor: pointer;
+                text-align: end;
+            }
         </style>
     </head>
     <body>
         <div id="navbar">
             <a href="">Home</a>
-            <a href="">Login</a>
+            <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1778667116%3A1704002424566383&theme=glif">Login/Sign-in</a>
             <b>VOTING SYSTEM</b>
         </div>
         <div id="image-container">
-            <div id="image-container1">
-                <p>This is Image Block 1</p>
-            </div>
+            <div id="image-container1"><p>This is Image Block 1</p></div>
             <div id="image-container2"><p>This is Image Block 2</p></div>
+            <button id="tick-container">CHOOSE LEFT</button>
+            <button id="tick-container1">CHOOSE RIGHT</button>
         </div>
         <script>
+
 
         </script>
     </body>
